@@ -1,0 +1,4 @@
+block-whitelist:
+  - LONG_GRASS
+  - COBBLESTONE_STAIRS
+  - WOODEN_STAIRS
