@@ -1,3 +1,11 @@
-name: PoseidonPlugin
-main: me.creepaster.poseidonplugin.PoseidonPlugin
+name: SoftTransmutation
+main: com.antigeddon.softtransmutation.SoftTransmutation
 version: 1.0
+softdepend: [LWC]
+commands:
+  softtmtt:
+   description: Show the config.yml whitelist.
+   usage: /softtmtt
+  softtransmutation:
+   description: (Alias of softtmtt) Show the config.yml whitelist too.
+   usage: /softtmtt

@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.creepaster.poseidonplugin</groupId>
-    <artifactId>PoseidonPlugin</artifactId>
+    <groupId>com.antigeddon.softtransmutation</groupId>
+    <artifactId>SoftTransmutation</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>PoseidonPlugin</name>
+    <name>SoftTransmutation</name>
 
     <properties>
         <java.version>1.8</java.version>
@@ -28,6 +28,21 @@
             </snapshots>
         </repository>
     </repositories>
+
+    <dependencies>
+    <dependency>
+        <groupId>ccom.griefcraft</groupId>
+        <artifactId>LWC</artifactId>
+        <version>4.0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/LWC-3.53.jar</systemPath>
+    </dependency>
+        <dependency>
+            <groupId>com.legacyminecraft.poseidon</groupId>
+            <artifactId>poseidon-craftbukkit</artifactId>
+            <version>1.1.8</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -48,13 +63,5 @@
             </resource>
         </resources>
     </build>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.legacyminecraft.poseidon</groupId>
-            <artifactId>poseidon-craftbukkit</artifactId>
-            <version>1.1.8</version>
-        </dependency>
-    </dependencies>
 
 </project>
